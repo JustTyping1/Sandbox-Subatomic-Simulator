@@ -9,7 +9,6 @@ class Proton(xpos, ypos, xvel, yvel, xacc, yacc):
       self.xacc = xacc
       self.yacc = yacc
 
-
 pygame.init()
 window_size = (800, 600)
 window = pygame.display.set_mode(window_size)
