@@ -59,6 +59,7 @@ while running:
       if event.type == pygame.QUIT:
          running = False
    
+   # Rendering differnet particles at coords (test)
    proton1 = Proton(50, 50, 0, 0, 0, 0)
    proton1.render()
    electron1 = Electron(200, 300, 0, 0, 0, 0)
