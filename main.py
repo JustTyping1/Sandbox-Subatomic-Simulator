@@ -8,6 +8,19 @@ class Proton(xpos, ypos, xvel, yvel, xacc, yacc):
       self.yvel = yvel
       self.xacc = xacc
       self.yacc = yacc
+      self.charge = 0.00000000000000000016
+      self.mass = 0.00000000000000000000000000167262192
+
+class Electron(xpos, ypos, xvel, yvel, xacc, yacc):
+   def __init__(self, xpos, ypos, xvel, yvel, xacc, yacc):
+      self.xpos = xpos
+      self.ypos = ypos
+      self.xvel = xvel
+      self.yvel = yvel
+      self.xacc = xacc
+      self.yacc = yacc
+      self.charge = -0.00000000000000000016
+      self.mass = 0.00000000000000000000000000000091093837
 
 pygame.init()
 window_size = (800, 600)
