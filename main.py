@@ -1,7 +1,9 @@
 import pygame
 
+# Class for Proton subatomic particle
 class Proton(xpos, ypos, xvel, yvel, xacc, yacc):
    def __init__(self, xpos, ypos, xvel, yvel, xacc, yacc):
+      # Adding variables for the proton's velocity, acceleration, position, charge and mass
       self.xpos = xpos
       self.ypos = ypos
       self.xvel = xvel
@@ -11,8 +13,10 @@ class Proton(xpos, ypos, xvel, yvel, xacc, yacc):
       self.charge = 0.00000000000000000016
       self.mass = 0.00000000000000000000000000167262192
 
+# Class for Electron subatomic particle
 class Electron(xpos, ypos, xvel, yvel, xacc, yacc):
    def __init__(self, xpos, ypos, xvel, yvel, xacc, yacc):
+      # Adding variables for the proton's velocity, acceleration, position, charge and mass
       self.xpos = xpos
       self.ypos = ypos
       self.xvel = xvel
