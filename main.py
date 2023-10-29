@@ -33,6 +33,7 @@ class Electron():
       window.blit(imp, (self.xpos, self.ypos))
 
 # Class for Neutron subatomic particle
+# mass of neutron is 1.674927471×10−27 kg or 1.674927471 "rontograms"
 class Neturon():
    def __init__(self, xpos, ypos, xvel, yvel, xacc, yacc):
       # Adding variables for the proton's velocity, acceleration, position, charge and mass
