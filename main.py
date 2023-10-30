@@ -60,7 +60,7 @@ class Proton():
 
    def render(self, delta: float):
       self.state.step(delta)
-      imp = pygame.image.load("protonsprite.png").convert()
+      imp = pygame.image.load("sprites/protonsprite.png").convert()
       window.blit(imp, tuple(self.state.pos))
 
 # Class for Electron subatomic particle
@@ -72,7 +72,7 @@ class Electron():
 
    def render(self, delta: float):
       self.state.step(delta)
-      imp = pygame.image.load("electronsprite.png").convert()
+      imp = pygame.image.load("sprites/electronsprite.png").convert()
       window.blit(imp, tuple(self.state.pos))
 
 # Class for Neutron subatomic particle
@@ -85,7 +85,7 @@ class Neturon():
 
    def render(self, delta: float):
       self.state.step(delta)
-      imp = pygame.image.load("neutronsprite.png").convert()
+      imp = pygame.image.load("sprites/neutronsprite.png").convert()
       window.blit(imp, tuple(self.state.pos))
 
 # Vector testing
